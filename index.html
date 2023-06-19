@@ -4,8 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main_page.css">
 </head>
 <body>
-    
+    <div class="menu_and_fog" id="maf">
+        <div class="menu">
+            <div class="menu_list">
+                <ol>
+                    <li type="none">
+                        <button class="back_menu_button" id="back_menu_button">
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </button>
+                    </li>
+                </ol>
+                <ol>
+                    <li type="none">
+                        Kategorie
+                    </li>
+                    <li type="none">
+                        Popularne
+                    </li>
+                    <li type="none">
+                        Kontakt
+                    </li type="none">
+                    <li type="none">
+                        Zaloguj się
+                    </li>
+                </ol>
+            </div>
+            <div class="menu_media">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+        <div class="fog" id="fog">
+
+        </div>
+    </div>
+    <div class="top">
+        <div class="top_header">
+            <button class="menu_button" id="menu_button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <button class="cart_button">
+                Koszyk
+            </button>
+        </div>
+        <div class="top_content">
+            <div class="top_images">
+                
+            </div>
+            <div class="top_scroll">
+                <div class="text_top">
+                    <span class="znajdz">Znajdź </span> coś dla
+                </div>
+                <div class="text_bottom">
+                    <span class="siebie">siebie</span>
+                </div>
+                <button class="scroll_button" onclick="scroll_categories()">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="categories" id="categories">
+        <span class="categories_name">
+            Kategorie
+        </span>
+        <div class="product">
+            <img class="product_image" src="./assets/images/product1.jpg" alt="">
+                <span class="info1 product_info">Dla mężczyzn</span>
+                <span class="info2 product_info">125 produktów</span>
+                <span class="info3 product_info">7 kategorii</span>
+            </div>
+        </div>
+        <div class="product">
+            <img class="product_image" src="./assets/images/product1.jpg" alt="">
+            <div class="product_info">
+                <span class="info1 product_info">Dla mężczyzn</span>
+                <span class="info2 product_info">125 produktów</span>
+                <span class="info3 product_info">7 kategorii</span>
+            </div>
+        </div>
+        <div class="product">
+            <img class="product_image" src="./assets/images/product1.jpg" alt="">
+            <div class="product_info">
+                <span class="info1 product_info">Dla mężczyzn</span>
+                <span class="info2 product_info">125 produktów</span>
+                <span class="info3 product_info">7 kategorii</span>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="products_name">
+            <span class="products_name1">Najpopularniejsze</span>
+            <span class="products_name2">produkty</span>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="div2">
+                <img class="product2_img" src="./assets/images/product1.jpg" alt="">
+                <div class="product2_price">
+                    129.99zł
+                </div>
+            </div>
+            <div class="product2_info">
+                <span class="product2_info1">Koszulka Nike</span>
+                <span class="product2_info2">3 kolory</span>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <span class="info_phone">
+            000-000-000
+        </span>
+        <span class="info_email">
+            kontakt@online-shop.com
+        </span>
+        <div class="info_media">
+            <a href=""><i class="fa-brands fa-square-facebook info_icon"></i></a>
+            <a href=""><i class="fa-brands fa-instagram info_icon"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github info_icon"></i></a>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
