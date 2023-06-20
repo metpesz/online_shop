@@ -1,0 +1,207 @@
+@media screen and (min-width: 1200px) {
+    
+    /* Main page */
+    .top{
+        display: none;
+    }
+    .desktop_top{
+        width: 100%;
+        height: 100.1vh;
+        padding: 1rem 5rem 1rem 5rem;
+        min-height: 625px;
+    }
+    .desktop_name{
+        padding-left: 1rem;
+        font-weight: bold;
+        display: block;
+    }
+    .desktop_button{
+        border: 1px white solid;
+        border-radius: 7.5px;
+        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+        width: 17.5vh;
+        min-width: 103px;
+        height: 6.5vh;
+        min-height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vh;
+    }
+    .desktop_top_content{
+        display: flex;
+        width: 100%;
+        height: 75vh;
+    }
+    .desktop_top_buttons{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .desktop_top_images{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        padding-left: 17.5%;
+        padding-right: 17.5%;
+        padding-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        gap: 15vh;
+    }
+    .desktop_top_links{
+        display: flex;
+        height: 12vh;
+    }
+    .desktop_links1{
+        width: 70%;
+        display: flex;
+        gap: 1rem;
+        align-items: flex-end;
+    }
+    .desktop_links2{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 1rem;
+    }
+    .desktop_link{
+        border: none;
+        background: none;
+        font-size: 0.8rem;
+    }
+    .desktop_link:hover{
+        border-bottom: 1px white solid;
+        margin: 0;
+    }
+    .desktop_image{
+        border: 1px white solid;
+        min-width: 200px;
+        width: 25vh;
+        height: 37.5vh;
+        min-height: 240px;
+        border-radius: 5px;
+    }
+    .desktop_image_1{
+        background-image: url(/assets/images/top_img1.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .desktop_image_2{
+        background-image: url(/assets/images/top_img2.jpg);
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 60%vh;
+        bottom: 30%;
+        
+    }
+    .desktop_image_3{
+        background-image: url(/assets/images/top_img3.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    
+    /* Categories */
+    .categories{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    .categories_fixed{
+        flex-direction: unset;
+        background-color: white;
+        width: 100%;
+    }
+
+
+    /* Products */
+    .products{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    .products_x{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .products_name1, .products_name2{
+        display: none;
+    }
+    .products_name{
+        width: 100%;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .desktop_products_name{
+        display: block;
+        background-color: white;
+        color: #334E2A;
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+    .product2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .product2_info{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product2_price{
+        align-self: flex-start;
+        margin-top: 240px;
+    }
+    .product2_info1{
+        width: 275px;
+        margin-top: -15px;
+    }
+    .product2_info2{
+        width: 275px;
+    }
+
+
+    /* Info */
+    .info_phone{
+        display: none;
+    }
+    .info_desktop{
+        padding: 1rem 5rem 1rem 5rem;
+        display: flex;
+    }
+    .info_left, .info_right{
+        height: 100%;
+        width: 50%;
+    }
+    .info_left span, .info_right span{
+        font-size: 0.6rem;
+    }
+    .info_left{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_right{
+        height: 94.55px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        padding-bottom: 6px;
+    }
+}

@@ -115,6 +115,12 @@ button{
     align-items: center;
     background-color: white;
 }
+.categories_fixed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
 .categories > *{
     color: #334E2A;
     background-color: white;
@@ -123,10 +129,12 @@ button{
     margin-top: 2vh;
     font-weight: bold;
     font-size: 1.25rem;
+    color: #334E2A;
+    background-color: white;
 }
 .product_image{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 275px;
+    max-height: 275px;
     background-color: white;
     margin-top: 1rem;
 }
@@ -149,22 +157,27 @@ button{
     align-items: flex-start;
     color: #334E2A;
     background-color: white;
-    width: 300px;
+    width: 275px;
 }
 .info1{
-    font-weight: bold;
+    font-size: 1rem;
 }
 .info2{
     color: rgb(167, 167, 167);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    margin-top: -5px;
 }
 .info3{
     color: rgb(167, 167, 167);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    margin-top: -5px;
 }
 
 
 /* Products */
+.desktop_products_name{
+    display: none;
+}
 .products{
     background-color: white;
     color: #334E2A;
@@ -206,13 +219,19 @@ button{
     height: 300px;
 }
 .product2_img{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: white;
 }
 .product2_info1, .product2_info2, .product2_info, .product2_price, .product2_img{
     background-color: white;
     color: #334E2A;
+}
+.product2_info1{
+    margin-top: -30px;
+}
+.product2_info2{
+    margin-bottom: 15px;
 }
 .product2_info{
     display: flex;
@@ -231,7 +250,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -1.62rem;
+    margin-top: -1.85rem;
     font-size: 0.8rem;
 }
 
@@ -240,12 +259,16 @@ button{
 .info{
     width: 100%;
     height: 150px;
+}
+.info_phone{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.info_phone, .info_email{
+.info_phone_number, .info_email{
     font-size: 0.8rem;
 }
 .info_media{
@@ -257,11 +280,14 @@ button{
     font-size: 1.75rem;
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1199px){
-    
+.desktop_top > *{
+    display: none;
+}
+.info_desktop{
+    display: none;
 }
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
     
 }
