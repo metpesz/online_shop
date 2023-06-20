@@ -88,12 +88,12 @@
         border-radius: 5px;
     }
     .desktop_image_1{
-        background-image: url(/assets/images/top_img1.jpg);
+        background-image: url(./images/product1.jpg);
         background-size: cover;
         background-position: center center;
     }
     .desktop_image_2{
-        background-image: url(/assets/images/top_img2.jpg);
+        background-image: url(./images/top_img2.jpg);
         background-size: cover;
         background-position: center center;
         position: absolute;
@@ -102,7 +102,7 @@
         
     }
     .desktop_image_3{
-        background-image: url(/assets/images/top_img3.jpg);
+        background-image: url(./images/top_img3.jpg);
         background-size: cover;
         background-position: center center;
     }
