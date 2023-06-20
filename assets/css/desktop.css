@@ -79,32 +79,22 @@
         border-bottom: 1px white solid;
         margin: 0;
     }
-    .desktop_image{
+    .top_image{
         border: 1px white solid;
         min-width: 200px;
         width: 25vh;
         height: 37.5vh;
         min-height: 240px;
         border-radius: 5px;
-    }
-    .desktop_image_1{
-        background-image: url(./images/product1.jpg);
-        background-size: cover;
-        background-position: center center;
+        object-fit: cover;
     }
     .desktop_image_2{
-        background-image: url(./images/top_img2.jpg);
         background-size: cover;
         background-position: center center;
         position: absolute;
         left: 60%vh;
         bottom: 30%;
-        
-    }
-    .desktop_image_3{
-        background-image: url(./images/top_img3.jpg);
-        background-size: cover;
-        background-position: center center;
+        border-radius: 50px;
     }
 
     
