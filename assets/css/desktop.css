@@ -7,7 +7,7 @@
     .desktop_top{
         width: 100%;
         height: 100.1vh;
-        padding: 1rem 5rem 1rem 5rem;
+            padding: 1rem 5rem 1rem 5rem;
         min-height: 625px;
     }
     .desktop_name{
@@ -95,6 +95,55 @@
         left: 60%vh;
         bottom: 30%;
         border-radius: 50px;
+    }
+
+    /* Desktop main page buttons info */
+    .main_page_info{
+        position: absolute;
+        border: 1px white solid;
+        border-radius: 7.5px;
+        height: 500px;
+        width: 700px;
+        z-index: 9998;
+        display: none;
+        background: none;
+        left: 32.75%;
+        padding: 1rem;
+        background-color: white;
+        color: #334E2A;
+    }
+    .mpi_image{
+        border: 1px white solid;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        color: #334E2A;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .mpi_image1{
+        object-fit: cover;
+    }
+    .mpi_text{
+        border: 1px white solid;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        color: #334E2A;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .text712{
+        background-color: white;
+        color: #334E2A;
+        font-size: 0.8rem;
+    }
+    .text721{
+        background-color: white;
+        color: #334E2A;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
     }
 
     
@@ -193,5 +242,17 @@
         justify-content: flex-end;
         gap: 0.5rem;
         padding-bottom: 6px;
+    }
+
+    /* cart */
+    .cart_and_fog{
+        margin-top: 0;
+    }
+    .cart_fog{
+        width: 60%;
+    }
+    .cart_page{
+        width: 40%;
+        padding-left: 5vh;
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/desktop.css">
 </head>
 <body>
+    <!-- Phone menu -->
     <div class="menu_and_fog" id="maf">
         <div class="menu">
             <div class="menu_list">
@@ -50,18 +51,33 @@
     </div>
 
 
+    <!-- Cart -->
+    <div class="cart_and_fog">
+        <div class="cart_fog" id="cart_fog">
+
+        </div>
+        <div class="cart_page">
+            <div class="cart_info">
+                <span class="koszyk">Koszyk</span>
+                <button class="cart_back" id="cart_back"><i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Phone main page -->
     <div class="top">
         <div class="top_header">
             <button class="menu_button" id="menu_button">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <button class="cart_button">
+            <button class="cart_button" id="phone_cart">
                 Koszyk
             </button>
         </div>
         <div class="top_content">
             <div class="top_images">
-                
+                <img src="./assets/images/top_img2.jpg" alt="" class="top_images_fixed">
             </div>
             <div class="top_scroll">
                 <div class="text_top">
@@ -80,16 +96,91 @@
     </div>
 
 
-    <div class="desktop_top">
+    <!-- Desktop main page -->
+    <div class="desktop_top" id="desktop_top">
         <div class="desktop_name">Online Shop</div>
         <div class="desktop_top_content">
             <div class="desktop_top_buttons">
-                <button class="desktop_button d_b1">Koszule</button>
-                <button class="desktop_button d_b2">Koszulki</button>
-                <button class="desktop_button d_b3">Spodnie</button>
-                <button class="desktop_button d_b4">Zegarki</button>
+                <button class="desktop_button d_b1" id="koszule">Koszule</button>
+                <button class="desktop_button d_b2" id="koszulki">Koszulki</button>
+                <button class="desktop_button d_b3" id="spodnie">Spodnie</button>
+                <button class="desktop_button d_b4" id="zegarki">Zegarki</button>
             </div>
             <div class="desktop_top_images">
+
+
+                    <!-- Desktop main page buttons info -->
+                <div class="main_page_info" id="button_info1">
+                    <div class="mpi_image">
+                        <img class="mpi_image1" src="./assets/images/top_img1.jpg" alt="">
+                    </div>
+                    <div class="mpi_text">
+                        <span class="text712">Lorem ipsum dolor sit amet.</span>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae consectetur eius incidunt atque sit.
+                        </div>
+                    </div>
+                </div>
+                <div class="main_page_info" id="button_info2">
+                    <div class="mpi_image">
+                        <img class="mpi_image1" src="./assets/images/top_img2.jpg" alt="">
+                    </div>
+                    <div class="mpi_text">
+                        <span class="text712">Lorem ipsum dolor sit amet.</span>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae consectetur eius incidunt atque sit.
+                        </div>
+                    </div>
+                </div>
+                <div class="main_page_info" id="button_info3">
+                    <div class="mpi_image">
+                        <img class="mpi_image1" src="./assets/images/top_img3.jpg" alt="">
+                    </div>
+                    <div class="mpi_text">
+                        <span class="text712">Lorem ipsum dolor sit amet.</span>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae consectetur eius incidunt atque sit.
+                        </div>
+                    </div>
+                </div>
+                <div class="main_page_info" id="button_info4">
+                    <div class="mpi_image">
+                        <img class="mpi_image1" src="./assets/images/top_img1.jpg" alt="">
+                    </div>
+                    <div class="mpi_text">
+                        <span class="text712">Lorem ipsum dolor sit amet.</span>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, consectetur beatae tenetur facere vel placeat, quisquam dicta reprehenderit porro dolorem accusantium eius pariatur cum deserunt?
+                        </div>
+                        <div class="text721">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae consectetur eius incidunt atque sit.
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <div class="desktop_image desktop_image_1">
                     <img src="./assets/images/top_img1.jpg" alt="" class="top_image top_image1">
                 </div>
@@ -103,19 +194,20 @@
         </div>
         <div class="desktop_top_links">
             <div class="desktop_links1">
-                <button class="desktop_link d_l1">Przegląd</button>
-                <button class="desktop_link d_l2">Kategorie</button>
-                <button class="desktop_link d_l3">Produkty</button>
-                <button class="desktop_link d_l4">Kontakt</button>
+                <button class="desktop_link d_l1" onclick="scorll_main_page()">Przegląd</button>
+                <button class="desktop_link d_l2" onclick="scroll_categories()">Kategorie</button>
+                <button class="desktop_link d_l3" onclick="scroll_products()">Produkty</button>
+                <button class="desktop_link d_l4" onclick="scroll_info()">Kontakt</button>
             </div>
             <div class="desktop_links2">
                 <button class="desktop_link d_l5">Zaloguj się</button>
-                <button class="desktop_link d_l6">Koszyk</button>
+                <button class="desktop_link d_l6" id="cart_button">Koszyk</button>
             </div>
         </div>
     </div>
 
 
+    <!-- Categories -->
     <div class="categories" id="categories">
         <div class="categories_fixed">
             <span class="categories_name">
@@ -149,7 +241,8 @@
     </div>
 
 
-    <div class="products">
+    <!-- Products -->
+    <div class="products" id="products">
         <div class="products_name">
             <span class="products_name1">Najpopularniejsze</span>
             <span class="products_name2">produkty</span>
@@ -232,6 +325,7 @@
     </div>
 
 
+    <!-- Info -->
     <div class="info">
         <!-- Phone query info -->
         <div class="info_phone">
@@ -250,10 +344,10 @@
 
 
         <!-- Desktop query info  -->
-        <div class="info_desktop">
+        <div class="info_desktop" id="info_desktop">
             <div class="info_left">
                 <span class="info_phone_number">
-                    000-000-000
+                    tel: 000-000-000
                 </span>
                 <span class="info_email">
                     kontakt@online-shop.com
@@ -274,6 +368,9 @@
             </div>
         </div>
     </div>
-    <script src="./assets/script.js"></script>
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/cart.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/main_page.js"></script>
 </body>
 </html>
