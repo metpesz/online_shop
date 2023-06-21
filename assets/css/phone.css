@@ -130,6 +130,11 @@ button{
     padding-top: 2vh;
     padding-left: 2.5vh;
 }
+.cart_products{
+    width: 100%;
+    height: 100vh;
+    border: 1px white solid;
+}
 
 
 /* Categories */
@@ -276,6 +281,117 @@ button{
     align-items: center;
     margin-top: -1.85rem;
     font-size: 0.8rem;
+    border: 1px white solid;
+}
+
+
+/* Product page */
+.product_page_container{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    z-index: 9999;
+    position: fixed;
+    margin-top: -1rem;
+}
+.product_fog{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+.product_page{
+    width: 80%;
+    max-width: 790px;
+    height: 60vh;
+    position: fixed;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.pp_image, .pp_description{
+    /* border: 1px black solid; */
+    background: none;
+}
+.pp_image{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.pp_image1{
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    max-height: 310px;
+}
+.pp_description{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pp_description_text{
+    width: 100%;
+    max-width: 310px;
+    height: 50%;
+    /* border: 1px black solid; */
+    background: none;
+    color: #334E2A;
+    display: flex;
+    justify-content: center;
+}
+.pp_description_others{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+}
+.size{
+    width: 100%;
+    max-width: 248px;
+    height: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.size_button{
+    color: #334E2A;
+    width: 35px;
+    height: 35px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.add_to_cart{
+    width: 100%;
+    max-width: 62px;
+    height: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_button{
+    width: 35px;
+    height: 35px;
+}
+.fa-plus{
+    font-size: 1.25rem;
+    background-color: white;
+    color: #334E2A;
 }
 
 
