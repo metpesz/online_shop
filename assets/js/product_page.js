@@ -72,6 +72,7 @@ const add_button = document.getElementById("add_button");
 const cart_products = document.getElementById("cart_products");
 
 let koszyk_index_status = 0;
+const koszyk_index = document.querySelectorAll(".koszyk_index");
 
 function add_product(){
     const product_div = document.createElement("div");
@@ -114,7 +115,7 @@ function add_product(){
 
 
     //Change number of items in cart
-    let koszyk_index = document.querySelectorAll(".koszyk_index");
+    
     koszyk_index.forEach(function(element){
         element.textContent = koszyk_index_status.toString();
 })};
@@ -124,6 +125,9 @@ add_button.addEventListener('click', add_product);
 const remove_product = document.getElementById("clear");
 function remove(){
     cart_products.innerHTML = "";
+    koszyk_index.forEach((element) => {
+        element.innerHTML = "0"
+    })
 };
 
 remove_product.addEventListener('click', remove);
