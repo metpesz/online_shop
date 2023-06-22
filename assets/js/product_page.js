@@ -45,16 +45,8 @@ size_xl.addEventListener('click', function(){
     size(size_xl);
 });
 
-//Adding product to the cart
-const add_button = document.getElementById("add_button");
-const cart_products = document.getElementById("cart_products");
-const product_div = document.createElement("div");
-product_div.className = "produkt_koszykowy";
-product_div.id = "product_div";
 
 
-
-let koszyk_index_status = 0;
 let rozmiary = [];
 
 function size_l_add(){
@@ -70,13 +62,22 @@ function size_xl_add(){
     rozmiary.push("XL");
 };
 
+
+
 size_l.addEventListener('click', size_l_add);
 size_m.addEventListener('click', size_m_add);
 size_xl.addEventListener('click', size_xl_add);
+//Adding product to the cart
+const add_button = document.getElementById("add_button");
+const cart_products = document.getElementById("cart_products");
 
-
+let koszyk_index_status = 0;
 
 function add_product(){
+    const product_div = document.createElement("div");
+    product_div.className = "produkt_koszykowy";
+    product_div.id = "product_div";
+
     cart_products.append(product_div);
 
     koszyk_index_status++;
@@ -119,3 +120,10 @@ function add_product(){
 })};
 
 add_button.addEventListener('click', add_product);
+
+const remove_product = document.getElementById("clear");
+function remove(){
+    cart_products.innerHTML = "";
+};
+
+remove_product.addEventListener('click', remove);
