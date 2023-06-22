@@ -130,10 +130,58 @@ button{
     padding-top: 2vh;
     padding-left: 2.5vh;
 }
+.koszyk_index{
+    font-size: 0.5rem;
+}
+.supx{
+    font-size: 0.5rem;
+}
 .cart_products{
     width: 100%;
     height: 100vh;
+    gap: 1rem;
+}
+.produkt_koszykowy{
+    width: 100%;
+    max-width: 90%;
+    height: 100%;
+    max-height: 15vh;
+    padding: 1vh;
     border: 1px white solid;
+    border-radius: 5px;
+    z-index: 9995;
+    display: flex;
+    gap: 1vh;
+}
+.product_div_img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    background-color: red;
+}
+.product_div_text{
+    height: 100%;
+    width: auto;
+    max-width: 80%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+.product_div_name{
+    font-size: 0.55rem;
+    background: none ;
+}
+.product_div_description{
+    font-size: 0.4rem;
+    background: none ;
+}
+.product_div_size{
+    font-size: 0.4rem;
+    background: none ;
+}
+
+#product_div_img:hover{
+    filter: grayscale();
 }
 
 
@@ -251,6 +299,7 @@ button{
     width: 275px;
     height: 275px;
     background-color: white;
+    cursor: pointer;
 }
 .product2_info1, .product2_info2, .product2_info, .product2_price, .product2_img{
     background-color: white;
@@ -430,7 +479,21 @@ button{
     display: none;
 }
 
+@media screen and (min-width: 571px) {
+    .product_div_name{
+        font-size: 0.8rem;
+        background: none ;
+    }
+    .product_div_description{
+        font-size: 0.7rem;
+        background: none ;
+    }
+    .product_div_size{
+        font-size: 0.7rem;
+        background: none ;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
-    
+
 }
